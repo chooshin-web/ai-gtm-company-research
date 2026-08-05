@@ -13,32 +13,66 @@ A Python automation project that generates structured B2B company research repor
 ## Technologies
 
 - Python 3
-- File Handling
 - Dictionaries
+- File Handling
 - Automation
+
+## How to Run
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/chooshin-web/ai-gtm-company-research.git
+```
+
+2. Install requirements.
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the program.
+
+```bash
+python main.py
+```
 
 ## Example
 
-```
-Enter a company name:
+Input:
 
+```
 OpenAI
 ```
 
-The program generates a structured report and saves it inside the `outputs` folder.
+Output:
 
-## Folder Structure
+- Company information
+- Business pain points
+- Outreach recommendations
+- Report saved inside the **outputs/** folder
+
+## Project Structure
 
 ```
-main.py
-outputs/
-docs/
-screenshots/
+ai-gtm-company-research/
+│
+├── main.py
+├── outputs/
+├── docs/
+├── screenshots/
+├── requirements.txt
+├── LICENSE
+└── README.md
 ```
 
 ## Future Improvements
 
-- JSON export
-- Markdown export
 - Live company APIs
 - AI-generated outreach emails
+- PDF report generation
+- JSON export
+- CSV company database
+- Claude Code integration
+- Codex CLI integration
+
